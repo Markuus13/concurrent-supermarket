@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS= -Wall -std=c11
+CFLAGS= -Wall -lpthread -std=c11
 
 all: compile exec clean
 
